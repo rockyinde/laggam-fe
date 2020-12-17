@@ -1,0 +1,18 @@
+h1, h3, p {
+    float: left;
+    clear: left;
+    width: 320px;
+    background-color: #fff;
+    color: #5a514c;
+    text-align: center;}
+
+
+h1 {
+    margin: 50px 0 0 50px;
+    height: 175px;
+    background-image: url("../images/constructive-logo.gif");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    border-top: 1px solid #bcbdc0;
+    border-left: 1px solid #bcbdc0;
+    border-right: 1px solid #bcbdc0;}
