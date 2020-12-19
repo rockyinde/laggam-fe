@@ -1,0 +1,55 @@
+body {
+  font-family: system-ui;
+  background: #E6E6FF;
+  color: blue;
+}
+.header {
+  background-color: #4000ff;
+  text-align: center;
+  padding: 1px;
+  color: white;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #6666ff;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  align: center;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Columns that float next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  color: #4000ff;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - make columns stack on top of each other instead of next to each other for small screens*/
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
